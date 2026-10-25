@@ -365,6 +365,14 @@ ul {
     0 0 2rem rgba(125, 255, 90, 0.10);
 }
 
+.shot-e {
+  z-index: 0;
+  --base-transform: translate(-29%, -29%) rotate(-10deg);
+  box-shadow:
+    0 2rem 5rem rgba(0, 0, 0, 0.40),
+    0 0 2rem rgba(184, 108, 255, 0.14);
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -470,6 +478,10 @@ footer {
   .shot-d {
     --base-transform: translate(-2%, 28%) rotate(2deg);
   }
+
+  .shot-e {
+    --base-transform: translate(-24%, -31%) rotate(-10deg);
+  }
 }
 
 @media (max-width: 520px) {
@@ -508,5 +520,9 @@ footer {
 
   .shot-d {
     --base-transform: translate(-6%, 36%) rotate(2deg);
+  }
+
+  .shot-e {
+    --base-transform: translate(-24%, -37%) rotate(-10deg);
   }
 }
