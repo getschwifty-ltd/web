@@ -152,7 +152,7 @@ ul {
   font-size: clamp(1.05rem, 2vw, 1.28rem);
 }
 
-.playtest-copy {
+.community-copy {
   max-width: 32rem;
   margin: 1rem 0 0;
   color: rgba(241, 248, 255, 0.78);
